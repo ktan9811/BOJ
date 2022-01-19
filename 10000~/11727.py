@@ -1,5 +1,6 @@
 a = int(input())
 dp = [0 for _ in range(1000+1)]
+dp[1] = 1
 dp[2] = 3
 dp[3] = 5
 for i in range(4,a+1):
