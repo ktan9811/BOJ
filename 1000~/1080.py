@@ -1,5 +1,3 @@
-import copy
-
 N, M = map(int, input().split(' '))
 SL = [list(input()) for _ in range(N)]
 RL = [list(input()) for _ in range(N)]
